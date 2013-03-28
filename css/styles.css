@@ -1,7 +1,6 @@
-.item {
-  border: 1px solid red;
-  height: 100px;
-  width: 100px;
+.item, img {
+  width: 300px;
+  margin: 5px;
 }
 
 .item.wide {
@@ -10,4 +9,8 @@
 
 .item.tall {
   height: 200px;
+}
+
+body {
+	background-color: black;
 }

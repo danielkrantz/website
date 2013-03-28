@@ -1,11 +1,8 @@
-.item, img {
+img {
   width: 300px;
   margin: 5px;
 }
 
-.item.wide {
-  width: 200px;
-}
 
 .item.tall {
   height: 200px;

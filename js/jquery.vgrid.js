@@ -324,6 +324,7 @@
 				{
 					refreshHandler(_self);
 				});
+				$(function (e) {refreshHandler(_self)});
 				if(_opt.useLoadImageEvent) setImgLoadEvent(_self, refreshHandler);
 				if(_opt.useFontSizeListener) setFontSizeListener(_self, refreshHandler);
 			});
